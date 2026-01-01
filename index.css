@@ -1,0 +1,165 @@
+* {
+    background-color: #FFF8D4;
+    padding: 0.3vw 2vw 0.1vw 2vw;
+}
+
+/* header */
+header {
+    position: sticky;
+    top: 0vw;
+    z-index: 1000;
+    height: 7.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #435663;
+}
+
+header #header {
+    background-color: #313647;
+    height: 7vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vw;
+}
+
+#header .header_text {
+    background: none;
+    color: #FFF8D4;
+    font-size: 3vw;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* main section */
+#main {
+    height: 80vw;
+    background-color: #435663;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 2vw;
+
+}
+
+/* star lists */
+#star_lists {
+    background-color: #313647;
+    height: 75vw;
+    width: 50%;
+    border-radius: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-right: 5vw;
+}
+
+#main .patterns_type {
+    background-color: #313647;
+    height: 73vw;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+    align-items: center;
+}
+
+#main .patterns_type li {
+    margin-top: 2vw 0vw 2vw 0vw;
+    background: none;
+    list-style: none;
+}
+
+#main .patterns_type li button {
+    position: relative;
+    left: -3vw;
+    border-radius: 2vw;
+    border: none;
+    height: 3vw;
+    width: 15vw;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    color: #313647;
+}
+
+#main .patterns_type li button:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+    color: #FFF8D4;
+    background-color: #A3B087;
+    border: 0.2vw solid #FFF8D4;
+    box-shadow: 0.1vw 0.2vw 0.5vw #4198a4;
+}
+
+
+/* star result */
+#star_results {
+    background-color: #A3B087;
+    height: 73.5vw;
+    width: 50%;
+    border-radius: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+}
+
+#star_results .pattern_result {
+    background-color: #435663;
+    width: 90%;
+    height: 30vw;
+    border-radius: 2vw;
+    color: #FFF8D4;
+    font-size: 2.5rem;
+    text-shadow: 0.5vw 0.3vw 0.2vw #2e4543;
+    text-size-adjust: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#star_results .code_result {
+    background-color: #FFF8D4;
+    width: 90%;
+    height: 50vw;
+    border-radius: 2vw;
+    color: #16232b;
+    font-size: 2rem;
+    text-shadow: 0.5vw 0.3vw 0.2vw #dae2ff;
+    text-size-adjust: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+footer {
+    background-color: #313647;
+    height: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #beSimple {
+    font-family: 'Pacifico', 'Courier New', Courier, monospace;
+    background: none;
+}
+
+#beSimple span {
+    background: none;
+    color: #A3B087;
+    font-size: 5vw;
+    text-shadow: 0.3vw 0.1vw 0vw #fff9ca;
+}
